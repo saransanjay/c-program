@@ -14,11 +14,11 @@ int subraction(int a,int b){
     n=1;
 }
 int multiplication(int a,int b){
-    if(a<5){
+    if(a<=0){
         printf("enter the a value of a greater than zero");
          n=-1;
     }
-    else if(b<5){
+    else if(b<=0){
         printf("enter the a value of b greater than zero");
          n=-1;
         }
@@ -30,11 +30,11 @@ int multiplication(int a,int b){
     }
 }
 int division(int a,int b){ 
-    if(a<0){
+    if(a<=0){
         printf("enter the a value of a greater than zero");
          n=-1;
     }
-    else if(b<0){
+    else if(b<=0){
         printf("enter the a value of b greater than zero");
         n=-1;
         }
@@ -73,4 +73,3 @@ do{
   
     getch();
  }
-
