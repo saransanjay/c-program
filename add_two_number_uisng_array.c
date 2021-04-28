@@ -7,7 +7,7 @@ for(j=0;j<3;j++){
 printf("\nenter the value for a[%d][%d]",i,j);
 scanf("%d",&a[i][j]);
 printf("a[%d][%d]=%d",i,j,a[i][j]);
-printf("\nenter the value for a[%d][%d]",i,j);
+printf("\nenter the value for b[%d][%d]",i,j);
 scanf("%d",&b[i][j]);
 printf("b[%d][%d]=%d",i,j,b[i][j]);
 c[i][j]=a[i][j]+b[i][j];
